@@ -38,8 +38,7 @@ class Task1 {
             }
 
             if (attempts == maxAttempts) {
-                System.out
-                        .println("Sorry, you didn't guess the number. The correct answer was " + generatedNumber + ".");
+                System.out.println("Sorry, you didn't guess the number. The correct answer was " + generatedNumber + ".");
             }
 
             System.out.print("Do you want to play again? (y/n): ");
